@@ -4,3 +4,6 @@
   width: 1em; /* Set a width to ensure the button has some size */
   height: 1em; /* Set a height to ensure the button has some size */
 }
+.in::placeholder{
+text-align: center;
+}

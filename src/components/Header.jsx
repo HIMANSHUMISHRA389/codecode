@@ -34,14 +34,14 @@ const Header = () => {
             }}
           >
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <img src={amazon} />
-            <Form inline>
-              <div className="input-group ">
+            <img src={amazon} style={{width:"30%"}}/>
+           
+              <div className="input-group " style={{width:"60%"}}>
                 <FaSearch
                   className="searchIcon"
                   style={{
                     position: "relative",
-                    left: "13%",
+                    left: "12%",
                     "z-index": "5",
                     bottom: "-10px",
                   }}
@@ -49,19 +49,17 @@ const Header = () => {
                 {/* Search icon */}
                 <input
                   type="text"
-                  className="form-control border-left-0"
+                  className="form-control border-left-0 in"
                   placeholder="Search by prouct color,size etc,(eg:skirt,jeans...)"
                   style={{
-                    textAlign: "center",
-                    justifyContent: "flex-start",
                     borderRadius: "14px",
-                   
+                   paddingLeft:"14%"
                   }}
                 />
               </div>
-            </Form>
+            
           </Col>
-          <Col xs={12} sm={6} md={6} lg={6} style={{marginLeft:"0",fontSize:"20px"}}>
+          <Col xs={12} sm={6} md={6} lg={6} style={{marginLeft:"0",fontSize:"18px"}}>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav
                 className="mr-auto"
