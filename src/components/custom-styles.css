@@ -1,0 +1,6 @@
+.navbar-toggler-icon {
+  background-image: none; /* Remove the default background image */
+  border: none; /* Remove any border */
+  width: 1em; /* Set a width to ensure the button has some size */
+  height: 1em; /* Set a height to ensure the button has some size */
+}

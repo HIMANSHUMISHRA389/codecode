@@ -1,0 +1,10 @@
+.slider-container {
+  height: 810px;
+  
+}
+
+
+.slider-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for webkit (Chrome, Safari, etc.) */
+}
+
